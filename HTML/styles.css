@@ -15,7 +15,7 @@ body, html {
 .mainDiv {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     height: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 25px 15px 15px 15px; /* Top, Right, Bottom, Left */
     margin: 15px;
     background-color: #D9B08C;
@@ -25,7 +25,7 @@ body, html {
 .headerDiv {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     padding: 15px 15px 15px 15px; 
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #8590AA;
     text-align: center;
 }
@@ -33,19 +33,19 @@ body, html {
 .textDiv {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     padding: 5px; 
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #FFCB9A;
-    margin-top: 20px; /* Adds space between textDiv and headerDiv */
+    margin-top: 20px;
 }
 
 .imageDiv {
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 20px;
 }
 .imageDiv img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 100%; /* Ensures the image is not wider than its container */
     max-height: 100%; /* Ensures the image is not taller than its container */
 }
@@ -63,7 +63,7 @@ p {
     top: 0;
     --nav-height: 100%;
     height: var(--nav-height);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px 15px 0px 15px;
     background-color: #D9B08C; /* Matches mainDiv */
     width: 250px; /* Set a fixed width for the sidebar */
@@ -74,7 +74,7 @@ p {
 .button {
     margin-bottom: 15px;
     background-color: #8590AA;
-    border-radius: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
     padding: 5px;
     font-weight: bold;
@@ -98,7 +98,7 @@ p {
     justify-content: space-evenly;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1080px) {
     .backgroundDiv {
         flex-direction: column;
     }
