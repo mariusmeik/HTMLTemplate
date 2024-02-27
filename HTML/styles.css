@@ -25,6 +25,7 @@ body, html {
 .headerDiv {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     padding: 15px 15px 15px 15px; 
+    margin-bottom: 15px;
     border-radius: 5px;
     background-color: #8590AA;
     text-align: center;
@@ -35,13 +36,13 @@ body, html {
     padding: 5px; 
     border-radius: 5px;
     background-color: #FFCB9A;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .imageDiv {
     display: inline-block;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .imageDiv img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
